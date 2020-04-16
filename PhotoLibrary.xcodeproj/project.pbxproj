@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0087EF2448A42700C6145C /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				BA0087E92448A1DA00C6145C /* PhotoListViewController.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
 		BA717A7E24489D5600A2BFA9 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +71,7 @@
 				BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */,
 				BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */,
 				BA717A8E24489D5600A2BFA9 /* RootViewController.swift */,
-				BA0087E92448A1DA00C6145C /* PhotoListViewController.swift */,
+				BA0087EF2448A42700C6145C /* Photo */,
 				BA0087EB2448A21E00C6145C /* MainNavigationViewController.swift */,
 				BA0087ED2448A2C000C6145C /* UIView+Extension.swift */,
 				BA717A9324489D5700A2BFA9 /* Assets.xcassets */,

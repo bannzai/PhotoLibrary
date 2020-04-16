@@ -9,6 +9,7 @@
 import UIKit
 
 final class PhotoListViewController: UIViewController {
+    let collectoinView: UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout.init())
     override func viewDidLoad() {
         super.viewDidLoad()
     }
