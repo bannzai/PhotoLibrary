@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0087EA2448A1DA00C6145C /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0087E92448A1DA00C6145C /* PhotoListViewController.swift */; };
 		BA717A8B24489D5600A2BFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */; };
 		BA717A8D24489D5600A2BFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */; };
 		BA717A8F24489D5600A2BFA9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8E24489D5600A2BFA9 /* RootViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0087E92448A1DA00C6145C /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
 		BA717A8724489D5600A2BFA9 /* PhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */,
 				BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */,
 				BA717A8E24489D5600A2BFA9 /* RootViewController.swift */,
+				BA0087E92448A1DA00C6145C /* PhotoListViewController.swift */,
 				BA717A9324489D5700A2BFA9 /* Assets.xcassets */,
 				BA717A9524489D5700A2BFA9 /* LaunchScreen.storyboard */,
 				BA717A9824489D5700A2BFA9 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA717A8F24489D5600A2BFA9 /* RootViewController.swift in Sources */,
+				BA0087EA2448A1DA00C6145C /* PhotoListViewController.swift in Sources */,
 				BA717A8B24489D5600A2BFA9 /* AppDelegate.swift in Sources */,
 				BA717A8D24489D5600A2BFA9 /* SceneDelegate.swift in Sources */,
 			);
