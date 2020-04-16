@@ -11,6 +11,14 @@ import UIKit
 final class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setup()
     }
 }
 
+private extension RootViewController {
+    func setup() {
+        let photoListViewController = PhotoListViewController()
+        let naviagationController = MainNavigationViewController.init(rootViewController: photoListViewController)
+    }
+}
