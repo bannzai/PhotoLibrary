@@ -60,10 +60,18 @@
 		BA0087F424493B9200C6145C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BA0087F924493D0D00C6145C /* StdLib */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA0087F924493D0D00C6145C /* StdLib */ = {
+			isa = PBXGroup;
+			children = (
 				BA0087ED2448A2C000C6145C /* UIView+Extension.swift */,
 				BA0087F724493C2400C6145C /* NSObject+Extension.swift */,
 			);
-			path = Extension;
+			path = StdLib;
 			sourceTree = "<group>";
 		};
 		BA717A7E24489D5600A2BFA9 = {
