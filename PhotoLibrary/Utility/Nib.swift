@@ -19,5 +19,3 @@ extension Nib {
         UINib(nibName: nibName, bundle: Bundle.init(for: self))
     }
 }
-
-extension UICollectionViewCell: Nib { }
