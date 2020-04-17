@@ -8,4 +8,4 @@
 
 import UIKit
 
-typealias CollectionViewCellType = UICollectionView & Nib & Reusable
+typealias CollectionViewCellType = UICollectionViewCell & Nib & Reusable
