@@ -14,6 +14,7 @@
 		BA0087F324493B1D00C6145C /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0087F124493B1D00C6145C /* PhotoListCollectionViewCell.xib */; };
 		BA0087F824493C2400C6145C /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0087F724493C2400C6145C /* NSObject+Extension.swift */; };
 		BA0087FC24493D2A00C6145C /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0087FB24493D2A00C6145C /* Nib.swift */; };
+		BA0087FE24493DF000C6145C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0087FD24493DF000C6145C /* Reusable.swift */; };
 		BA717A8B24489D5600A2BFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */; };
 		BA717A8D24489D5600A2BFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */; };
 		BA717A8F24489D5600A2BFA9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA717A8E24489D5600A2BFA9 /* RootViewController.swift */; };
@@ -29,6 +30,7 @@
 		BA0087F124493B1D00C6145C /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
 		BA0087F724493C2400C6145C /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		BA0087FB24493D2A00C6145C /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		BA0087FD24493DF000C6145C /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		BA717A8724489D5600A2BFA9 /* PhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA717A8A24489D5600A2BFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA717A8C24489D5600A2BFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BA0087FB24493D2A00C6145C /* Nib.swift */,
+				BA0087FD24493DF000C6145C /* Reusable.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				BA0087EC2448A21E00C6145C /* MainNavigationViewController.swift in Sources */,
 				BA717A8F24489D5600A2BFA9 /* RootViewController.swift in Sources */,
 				BA0087F824493C2400C6145C /* NSObject+Extension.swift in Sources */,
+				BA0087FE24493DF000C6145C /* Reusable.swift in Sources */,
 				BA0087EA2448A1DA00C6145C /* PhotoListViewController.swift in Sources */,
 				BA717A8B24489D5600A2BFA9 /* AppDelegate.swift in Sources */,
 				BA717A8D24489D5600A2BFA9 /* SceneDelegate.swift in Sources */,
