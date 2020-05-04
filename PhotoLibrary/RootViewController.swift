@@ -19,6 +19,9 @@ final class RootViewController: UIViewController {
 private extension RootViewController {
     func setup() {
         let photoListViewController = PhotoListViewController()
-        let naviagationController = MainNavigationViewController.init(rootViewController: photoListViewController)
+        let navigationController = MainNavigationViewController(rootViewController: photoListViewController)
+        addChild(navigationController)
+        view.addSubview(navigationController.view)
+        navigationController.didMove(toParent: self)
     }
 }
